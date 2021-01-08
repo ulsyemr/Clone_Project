@@ -1,0 +1,99 @@
+.carousel-nav-icon {
+  height: 48px;
+  width: 48px;
+}
+.carousel-item .col {
+  margin: 8px;
+  height: 300px;
+  background-size: cover;
+  background-position: center center;
+}
+
+.carousel-item .col-sm {
+  margin: 8px;
+  height: 300px;
+  background-size: cover;
+  background-position: center center;
+}
+
+.carousel-item .col-md {
+  margin: 8px;
+  height: 300px;
+  background-size: cover;
+  background-position: center center;
+}
+
+
+
+/* nothing below this point is needed*/
+@import url('https://fonts.googleapis.com/css?family=Libre+Franklin:300,400,600,700,800,900&display=swap');
+body {
+  background-color: #f2f2f2;
+  color: #171717;
+  height: 180vh;
+  min-height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+h1 {
+  font-family: 'Libre Franklin', sans-serif;
+  font-weight: 700;
+}
+/* head */
+.head {
+  margin-top:1000px;
+}
+
+/* Main Background */
+.main-background {
+  margin-top:40px;
+  margin-bottom:100px;
+  background-image: url("./images/exclusive.png");
+  height: 130vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* paragraphs */
+.paragraphs {
+  margin-top:200px;
+  font-family: "Open Sans", sans-serif;
+  font-weight:bolder;
+  font-variant: center;
+
+}
+/* button */
+.mybtn {
+  margin-top: 80px;
+  color:black;
+  background-color: #DCDBD9;
+  padding: 10px 25px;
+  border: 1px solid black;
+  border-radius: 0px;
+}
+.mybtn:hover {
+  background-color:black;
+}
+/* why us */
+.why-us {
+ 
+}
+/* icons */
+.icons {
+  margin-top:200px;
+  margin-bottom:200px;
+  width: 100px;
+  height: 100px;
+}
+/* subtitles */
+.subtitles {
+  font-family: "Open Sans", sans-serif;
+  font-weight: bolder;
+  font-size: larger;
+  margin-top:-180px;
+  margin-bottom:100px;
+}
+.subsubtitle {
+  margin-top: -100px;
+}

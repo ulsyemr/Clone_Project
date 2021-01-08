@@ -1,0 +1,268 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.no-padding {
+  padding-left: 0;
+  padding-right: 0;
+  /* weight:auto; */
+  height:auto;
+}
+.main-background {
+  background-image: url("./images/background-1.png");
+  height: 165vh;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.Homely-Page {
+  font-size: xx-large;
+  margin: 35px 30px;
+  color: white;
+}
+.navbar {
+  margin:40px 40px;
+  font-size:large;
+  text-decoration-color: white;
+  color: white;
+}
+.Paragraphs {
+  text-align: center;
+  margin-top: 100px;
+  padding:20px;
+  color:white;
+}
+.head-1,.head-2 {
+  font-weight:bolder;
+  font-size: xx-large;
+}
+.head-3 {
+  font-size:small;
+}
+.btn{
+  margin-top: 40px;
+  background-color:rgb(48,59,76);
+}
+/* framing */
+.frame-column div {
+  margin-top: 20px;
+}
+.frame-column div img {
+  width: 100%;
+}
+/* middle small photos */
+.mini-photo-left-side {
+  font-family: monospace;
+  float: left;
+  color: #4C4C4C;
+  font-weight: bold;
+}
+.mini-photo-right-side {
+  float: right;
+  margin: -35px;
+  margin-right: -5px;
+}
+.frame-column h1 {
+  font-style:italic;
+  color:black;
+  font-size:12px;
+  margin-left: 25px;
+  margin-top: 5px;
+}
+.products {
+  background-color:#FAFAFA;
+}
+
+.products h1 {
+  font-family:"Open Sans", sans-serif;
+  line-height:normal;
+  font-style:bolder;
+  font-size:35px;
+}
+.products p {
+  color:#d5d5d5;
+  font-style:bold;
+  font-size:16px;
+}
+.Featured-Products {
+  text-align: center;
+  margin-top:60px;
+  padding: 30px;
+}
+
+.btn-view {
+  background-color: #FAFAFA;
+  justify-content: center;
+}
+.brred {
+  border: 1px solid red;
+}
+
+/* Navbar */
+.navbar-nav a {
+  margin-left: 20px;
+}
+.nav-item:hover {
+  font-style:italic;
+  font-style:bold;
+  font-size:15px;
+}
+
+/* SVG */
+.svgx {
+  width: 15px;
+  height: 15px;
+}
+.svg1 {
+  width: 15px;
+  height: 15px;
+}
+/* button */
+.mybtn {
+  background-color: #3D4859;
+  padding: 10px 25px;
+  border: 1px solid white;
+  border-radius: 0px;
+}
+.viewbtn {
+  align-items: center;
+  margin-top: 100px;
+  margin-bottom:100px;
+  padding: 10px 25px;
+  color: black;
+  font-style: bold;
+  background-color: #FAFAFA;
+  border: 1px solid black;
+  border-radius: 0px;
+}
+.viewbtn:hover {
+  background-color: white;
+  border: 1px solid white;
+  color: #2D394A;
+}
+
+/* Middle 3 Photo */
+.big-left-photo {
+  float: right;
+  margin-right: 15px;
+  width:90%;
+}
+
+.mini-right-photo {
+  width: 100%;
+}
+
+.my-9 {
+  margin: 80px 0px;
+}
+
+/* Why Us */
+.whyUs {
+  text-align: center;
+  margin-top:100px;
+}
+/* footer */
+.full {
+  width: 100%;    
+}
+.gap {
+height: 30px;
+width: 100%;
+clear: both;
+display: block;
+}
+.footer {
+background:#FAFAFA;
+height: auto;
+padding-bottom: 30px;
+position: relative;
+width: 100%;
+border-bottom: 1px solid black;
+border-top: 1px solid white;
+}
+.footer p {
+margin: 0;
+}
+.footer img {
+max-width: 100%;
+}
+.footer h3 {
+color: black;
+font-size: 18px;
+font-weight: 600;
+line-height: 27px;
+padding: 40px 0 0px;
+margin-bottom: 15px;
+}
+
+.footer h4 {
+color: black;
+font-size: 2em;
+font-weight: 600;
+line-height: 38px;
+padding: 60px 100px 20px;
+font-family: arial;
+/* font-weight: lighter; */
+}
+
+.footer ul {
+font-size: 13px;
+list-style-type: none;
+margin-left: 0;
+padding-left: 0;
+margin-top: 0px;
+color: black;
+padding: 0 0 8px 0;
+}
+
+.email{
+border-bottom: 3px solid black;
+}
+.footer ul li a {
+padding: 0 0 12px 0;
+display: block;
+}
+.footer a {
+color: black;
+font-weight: lighter;
+}
+
+.footer p {
+color: black;
+font-weight: solid;
+font-style: italic;
+font-size:small;
+}
+
+.footer a:hover {
+text-decoration:none;
+font-weight: bold;
+}
+.supportLi h4 {
+font-size: 20px;
+font-weight: lighter;
+line-height: normal;
+margin-bottom: 0 !important;
+padding-bottom: 0;
+}
+
+.bg-gray {
+background-image: -moz-linear-gradient(center bottom, black 0%, black 100%);
+box-shadow: 0 1px 0 #B4B3B3;
+}
+
+
+.footer a {
+color: black
+}
+
+.footer-bottom {
+margin-top: 2em;
+border-top: 1px solid black;
+padding-top: 20px;
+padding-bottom: 10px;
+}
+.footer-bottom p.pull-left {
+padding-top: 6px;
+font-size: 0.75em
+}
